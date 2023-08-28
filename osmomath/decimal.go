@@ -12,6 +12,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
+// TEst
+
 // NOTE: never use new(BigDec) or else we will panic unmarshalling into the
 // nil embedded big.Int
 type BigDec struct {
