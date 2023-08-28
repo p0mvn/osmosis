@@ -60,7 +60,7 @@ jobs:
       - name: Add Changes 
         id: add_changes
         run: |
-          git add go.mod go.sum
+          git add .
           echo ANY_CHANGES_ADDED=$(git diff --name-only --cached) >> $GITHUB_OUTPUT
 
       - name: Commit and Push Changes
