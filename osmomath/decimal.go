@@ -12,7 +12,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
-// TEst 2
+// TEst 2 3
 
 // NOTE: never use new(BigDec) or else we will panic unmarshalling into the
 // nil embedded big.Int
