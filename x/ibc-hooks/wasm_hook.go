@@ -22,6 +22,8 @@ import (
 	"github.com/osmosis-labs/osmosis/x/ibc-hooks/types"
 )
 
+// test
+
 type ContractAck struct {
 	ContractResult []byte `json:"contract_result"`
 	IbcAck         []byte `json:"ibc_ack"`
